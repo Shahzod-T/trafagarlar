@@ -1,0 +1,500 @@
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src:
+         url('../fonts/mulish-v7-latin-300.woff2') format('woff2'), 
+         url('../fonts/mulish-v7-latin-300.woff') format('woff'); 
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src:
+         url('../fonts/mulish-v7-latin-regular.woff2') format('woff2'),
+         url('../fonts/mulish-v7-latin-regular.woff') format('woff'); 
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('../fonts/mulish-v7-latin-700.woff2') format('woff2'), 
+         url('../fonts/mulish-v7-latin-700.woff') format('woff');
+  }
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    pad: 0;
+    
+}
+body{
+    font-family: "Mulish", "Arial", sans-serif;
+    font-weight: 400;
+
+}
+p{
+    opacity: 0.6;
+}
+
+text{
+    font-family: "Mulish", "Arial", sans-serif;
+    font-weight: 400;
+}
+.header-container{
+    display: flex;
+    
+    width: 1260px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px auto;
+}
+
+.header-nav{
+    
+    vertical-align: middle;
+    
+    margin: 40px auto;
+    display: flex;
+    
+    
+}
+
+.site-logojon{
+    margin-right: 412px;
+}
+
+.nav-menu{
+    display: flex;
+    
+}
+
+
+.menu-list{
+    
+    
+    
+    list-style: none;
+}
+
+
+.nav-site-link{
+    
+    text-decoration: none;
+    
+    padding: 20px 20px;
+    
+}
+
+.main-container{
+    
+    display: flex;
+    
+}
+
+.divs-heading{
+    
+    display: flex;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+
+.hero-title{
+    margin-right: 130px;
+    
+    vertical-align: middle;
+}
+
+.title-heading{
+    
+    width: 327px;
+    height: 112px;
+    font-size: 38px;
+}
+
+
+.heading-tex{
+    
+    width: 342px;
+    height: 112px;
+    font-size: 21px;
+}
+
+.main-links{
+    
+    width: 200px;
+    height: 60px;
+    border-radius: 56px;
+    padding: 10px 25px;
+    background-color:blue;
+    color: #fff;
+    text-decoration: none;
+    
+    
+    
+    
+} 
+
+.heading-title{
+    display: flex ;
+    justify-content: center;
+    width: 256px;
+    height: 56px;
+    font-size: 36px;
+    margin: 0 auto;
+}
+.service-span{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 56px;
+    height: 2px;
+    left: 876px;
+    top: 1107px;
+    
+    background: #000000;
+    border-radius: 5px;
+}
+
+
+.sevice-paragraph{
+    width: 952px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    
+    margin-bottom: 18px;
+}
+
+
+.service-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1120px;
+    margin-bottom: 69px;
+    margin : 0 auto;
+    
+    
+    
+    
+}
+
+.service-heading{
+    
+    
+    
+    flex-wrap: wrap;
+    
+    font-size: 24px;
+    width: 350px;
+    height: 254px;
+    
+    list-style: none;
+    
+    background: #FFFFFF;
+    
+    
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+
+
+.service-heading-title{
+    
+    
+    width: 130px;
+    
+    height: 54px;
+    
+    margin: 10px 20px;
+}
+
+.service-text{
+    
+    width: 260px;
+    
+    height: 54px;
+    font-size: 16px;
+}
+
+
+
+.main-link{
+    
+    width: 200px;
+    height: 60px;
+    border-radius: 56px;
+    padding: 20px 55px;
+    background-color:white;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 162px;
+    border: 1.4px solid #458FF6;
+    
+    
+    
+    
+} 
+
+
+.healthcare-container{
+    display: flex;
+    width: 1260px;
+    /* margin: 0 auto; */
+    align-items: center;
+    margin-top: 250px;
+}
+
+.second-container{
+    margin-left: 142px;
+    vertical-align: middle;
+}
+
+
+.heading-healthcare{
+    width: 481px;
+    height: 112px;
+    font-size: 36px;
+    color: #000000;
+    
+}
+
+.healthcare-text{
+    margin-bottom: 47px;
+    
+    font-size: 18px;
+}
+
+.healthcare-link{
+    width: 200px;
+    height: 60px;
+    border-radius: 56px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 162px;
+    border: 1.4px solid #458FF6;;
+}
+
+.healthcare-img{
+    
+    width: 650px;
+    height: 477px;
+    
+    
+}
+
+
+.list-footer{
+    
+    width: 1120px;
+    height: 425px;
+    margin: 0 auto;
+    background-color: #5A98F2;
+    border-radius: 24px;
+    margin-bottom: 280px;
+}
+
+.footer-subtitle{
+    width: 420px;
+    height: 48px;
+    margin: 20px 380px ;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+
+.span-cutomer-saying{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 56px;
+    height: 2px;
+    left: 876px;
+    top: 1107px;
+    background: #000000;
+    border-radius: 5px;
+    margin-bottom: 77px;
+}
+.container-costomer-saying{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-pictue{
+    
+    width: 140px;
+    height: 140px;
+    
+}
+
+.footer-blockquote{
+    
+    margin-left: 30px;
+}
+
+
+.footer-text{
+    
+    width: 420px;
+    height: 120px;
+    margin-left: 120px;
+}
+
+
+
+.article-container{
+    
+    width: 1120px;
+    height: 510px;
+    
+    margin: 0 auto;
+}
+
+.article-title{
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+}
+.article-span{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 56px;
+    height: 2px;
+    left: 876px;
+    top: 1107px;
+    background: #000000;
+    border-radius: 5px;
+    margin-bottom: 77px;
+}
+.big-container-article{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.article-list-container{
+    width: 350px;
+    /* height: 512px; */
+}
+.article-picture{
+    
+    width: 250px;
+    height: 150px;
+    margin-bottom: 21px;
+    
+    
+}
+
+.article-picture-tilte{
+    width: 200px;
+    height: 64px;
+    margin-bottom: 12px;
+}
+
+.article-paragraph{
+    margin-bottom: 12px;
+}
+.article-links{
+    display: flex;
+    padding-bottom: 202px;
+    
+}
+
+.article-link{
+    
+    
+    width: 150px;
+    height: 40px;
+    border-radius: 56px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    
+    border: 1.4px solid #458FF6;
+    
+    margin: 0 auto;
+    
+    
+    
+}
+
+
+.bottom-container{
+    background-color: #67C3F3;
+    
+}
+.bottom-big-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    color:#FFF;
+}
+.bottom-inner{
+    margin: 124px 145px 100px 190px;
+}
+.bottom-site-logo{
+    margin-bottom: 25px;
+    width: 107px;
+    height: 30px;
+}
+.bottom-text{
+    width: 391px;
+    height: 81px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.bottom-blockquote{
+    width: 391px;
+    height: 28px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+
+.bottom-title{
+    width:  92px;
+    
+    height: 60px;
+}
+
+.bottom-nav-menu{
+    list-style: none;
+    padding: 0%;
+    color: #FFF;
+}
+
+
+
+
+
+
+.bottom-nav-site-link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px   ;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+
